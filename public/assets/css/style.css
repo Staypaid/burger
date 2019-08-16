@@ -1,8 +1,8 @@
 body{
-    background-color:rgb(249, 37, 37);
-    font-family: 'Cantata One', serif;
+    background-color:rgb(255, 191, 216);
+    font-family: 'Verdana', serif;
 }
 
 .container, .jumbotron{
-    background-color: rgb(243, 212, 10);
+    background-color: rgb(153, 255, 241);
 }
