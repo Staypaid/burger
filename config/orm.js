@@ -1,4 +1,3 @@
-
 var connection = require("../config/connection");
 
 function createQmarks(num) {
@@ -26,6 +25,7 @@ function translateSql(ob) {
 var orm = {
   selectAll: function(table, cb) {
     var dbQuery = "SELECT * FROM " + table + ";";
+    console.log(dbQuery)
 
     connection.query(dbQuery, function(err, res) {
       if (err) {

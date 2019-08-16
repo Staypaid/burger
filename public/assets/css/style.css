@@ -1,0 +1,8 @@
+body{
+    background-color:rgb(249, 37, 37);
+    font-family: 'Cantata One', serif;
+}
+
+.container, .jumbotron{
+    background-color: rgb(243, 212, 10);
+}
